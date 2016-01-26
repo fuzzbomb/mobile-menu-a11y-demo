@@ -1,7 +1,11 @@
 /**
- * Custom styles.
+ * @file
+ * Basic page layout + text styles.
+ *
  * Keep these separate from the HTML5 Boilerplate main.css
+ *
  */
+
 html, body {
   width: 100%;
   background-color: #ffffff;
@@ -38,8 +42,9 @@ html, body {
    padding-top: 0;
  }
 
-
-
+/**
+ * Main menu styling
+ */
 #main-menu-button span {
   display: none;
 }
