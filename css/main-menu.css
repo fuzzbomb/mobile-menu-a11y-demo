@@ -1,0 +1,8 @@
+/**
+ * @file
+ * Main menu styling.
+ */
+
+#main-menu-button span {
+  display: none;
+}

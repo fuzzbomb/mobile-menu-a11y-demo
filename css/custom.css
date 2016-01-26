@@ -42,9 +42,3 @@ html, body {
    padding-top: 0;
  }
 
-/**
- * Main menu styling
- */
-#main-menu-button span {
-  display: none;
-}
