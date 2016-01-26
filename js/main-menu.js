@@ -11,15 +11,19 @@
     $('#main-menu nav').hide();
 
     // Add the open/close behaviour.
-    $('#main-menu-button').click(function(event) {
-      if (menuDisplayed === true) {
-        $('#main-menu nav').hide();
-        menuDisplayed = false;
-      }
-      else {
-        $('#main-menu nav').show();
-        menuDisplayed = true;
-      }
-    });
+    $('#main-menu-button')
+      .keypress( function(event) {
+        $(this).trigger('click');
+      })
+      .click(function(event) {
+        if (menuDisplayed === true) {
+          $('#main-menu nav').hide();
+          menuDisplayed = false;
+        }
+        else {
+          $('#main-menu nav').show();
+          menuDisplayed = true;
+        }
+      });
   });
 })(jQuery);
