@@ -4,6 +4,8 @@
  */
 html, body {
   width: 100%;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .sidebar {
@@ -19,6 +21,16 @@ html, body {
   padding: 0 5%;
  }
 
+.header {
+  background-color: #444444;
+  color: #dddddd;
+  padding: 1em;
+}
+
  h1 {
    text-align: center;
+ }
+
+ .header h1 {
+   padding-top: 0;
  }
