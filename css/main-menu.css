@@ -21,10 +21,6 @@
   color: #444444;
 }
 
-#main-menu-button span {
-  display: none;
-}
-
 #main-menu ul {
   position: absolute;
   top: 80px;
