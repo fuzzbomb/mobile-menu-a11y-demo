@@ -16,6 +16,11 @@
   left: 25px;
 }
 
+#main-menu-button:focus {
+  background-color: #ffffff;
+  color: #444444;
+}
+
 #main-menu-button span {
   display: none;
 }
