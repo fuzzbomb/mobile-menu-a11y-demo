@@ -9,13 +9,16 @@ html, body {
 }
 
 .sidebar {
+  box-sizing: border-box;
   width: 30%;
   height: 100%;
+  padding-left: 5%;
   float: left;
  }
 
 .main {
-  width: 60%;
+  box-sizing: border-box;
+  width: 70%;
   height: 100%;
   float: left;
   padding: 0 5%;
