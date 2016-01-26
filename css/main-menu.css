@@ -19,3 +19,23 @@
 #main-menu-button span {
   display: none;
 }
+
+#main-menu ul {
+  position: absolute;
+  top: 80px;
+  left: 25px;
+  background-color: #eeeeee;
+  color: #333333;
+  list-style: none;
+  padding: 1em;
+}
+
+#main-menu li {
+  padding: 0.5em;
+}
+
+#main-menu a {
+  width: 100%;
+  color: #333333;
+  text-decoration: none;
+}
