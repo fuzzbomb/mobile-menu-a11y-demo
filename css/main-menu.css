@@ -11,6 +11,9 @@
   color: #ffffff;
   border: solid 2px #ffffff;
   border-radius: 6px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
 }
 
 #main-menu-button span {
