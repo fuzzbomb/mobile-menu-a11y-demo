@@ -2,3 +2,23 @@
  * Custom styles.
  * Keep these separate from the HTML5 Boilerplate main.css
  */
+html, body {
+  width: 100%;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  float: left;
+ }
+
+.main {
+  width: 60%;
+  height: 100%;
+  float: left;
+  padding: 0 5%;
+ }
+
+ h1 {
+   text-align: center;
+ }
