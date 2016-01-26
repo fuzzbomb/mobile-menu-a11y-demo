@@ -3,6 +3,16 @@
  * Main menu styling.
  */
 
+#main-menu-button {
+  width: 1.5em;
+  font-size: 3em;
+  text-align: center;
+  background-color: #444444;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  border-radius: 6px;
+}
+
 #main-menu-button span {
   display: none;
 }
