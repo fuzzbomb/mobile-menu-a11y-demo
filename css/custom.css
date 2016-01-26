@@ -37,3 +37,9 @@ html, body {
  .header h1 {
    padding-top: 0;
  }
+
+
+
+#main-menu-button span {
+  display: none;
+}
