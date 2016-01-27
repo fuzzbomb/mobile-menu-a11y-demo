@@ -18,6 +18,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+      <a href="#main-content" class="skip-link visuallyhidden focusable">Skip to main content</a>
         <nav role="navigation" id="main-menu">
           <button id="main-menu-button"><i class="fa fa-bars"></i><span class="visuallyhidden">Main Menu</span></button>
           <ul id="main-menu-list">
@@ -55,7 +56,7 @@
           </ul>
         </div>
 
-        <div role="main" class="main">
+        <div id="main-content" role="main" class="main" tabindex=-1>
           <h2>Introduction</h2>
           <p>Hello world! This was started with the <a href="https://html5boilerplate.com/">HTML5 Boilerplate</a>. Like most unimaginative web designers, I naturally stuck a huge chunk of <a href="https://en.wikipedia.org/wiki/Lorem_ipsum">Lorem Ipsum</a> text in here to pad it out. If we're lucky, I might get around to adding a sidebar or footer to make it look like a real website.</p>
 
