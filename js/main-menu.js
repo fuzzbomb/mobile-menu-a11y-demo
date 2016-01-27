@@ -6,25 +6,25 @@
 (function ($) {
   $(document).ready(function() {
 
-    // Initialize.
-    var menuDisplayed = false;
-    $('#main-menu nav').hide();
-
     // Add the open/close behaviour.
     $('#main-menu-button')
-      .attr('aria-controls', 'main-menu-nav')
+      .attr('aria-controls', 'main-menu-list')
       .attr('aria-expanded', false)
       .click(function(event) {
         if (menuDisplayed === true) {
           $(this).attr('aria-expanded', false)
-          $('#main-menu nav').hide();
+          $('#main-menu-list').hide();
           menuDisplayed = false;
         }
         else {
           $(this).attr('aria-expanded', true)
-          $('#main-menu nav').show();
+          $('#main-menu-list').show();
           menuDisplayed = true;
         }
       });
+
+    // Initialize.
+    var menuDisplayed = false;
+    $('#main-menu-list').hide();
   });
 })(jQuery);
